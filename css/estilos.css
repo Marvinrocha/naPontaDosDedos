@@ -1,0 +1,50 @@
+
+
+.container {
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(79, 79, 84);
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+
+    .campo-digitacao {
+        font-size: 20px;
+        height: 130px;
+        border: 3px solid black;
+    }
+
+    .tamanhoFrase {
+        text-decoration-color: azure;
+    }
+    
+.frase{
+font-size:20px;
+text-align:left;
+
+}
+    body{
+        color: rgb(10, 11, 25);
+    }
+    /* Digite o maior numero de palavras */
+    .ordem {
+    padding: 40px;
+    font-size:24px; 
+    text-align: center;  
+    }
+
+    .campo-desativado{
+        background-color: lightgray;
+    }
+
+    .icones{
+        vertical-align: middle;
+    }
+    
+
+    .borda-verde{
+        border:3px solid green;
+    }
+    .borda-vermelha{
+        border:3px solid red;
+    }
