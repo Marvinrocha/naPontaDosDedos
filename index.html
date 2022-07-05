@@ -1,62 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <title> Na Ponta dos Dedos </title>
+    <title>Alura Typer</title>
     <link rel="stylesheet" href="css/libs/materialize.min.css">
     <link rel="stylesheet" href="css/libs/google-fonts.css">
     <link rel="stylesheet" href="css/estilos.css">
-
 </head>
-
 <body>
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                              DIV CONTAINER                              -->
-    <!-- ----------------------------------------------------------------------- -->
-
     <div class="container">
-        <h1 class="center">Na Ponta dos Dedos </h1>
-        <h3 class="ordem">Clique na caixa de textos para começar</h3>
-        <h5>Digite o texto abaixo</h5>
-        <p class="frase center">Nunca diga nunca, mesmo eu tendo dito duas vezes</p>
+        <h1 class="center">Alura Typer</h1>
+        <p class="frase">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
         <ul class="informacoes center">
             <li>
                 <i class="small material-icons icones">description</i>
-                <span id="tamanho-frase"> </span> Palavras
+                <span id="tamanho-frase">19</span> palavras
             </li>
-
             <li>
                 <i class="small material-icons icones">query_builder</i>
-                <span id="tempo-digitacao">10</span> Segundos
+                <span id="tempo-digitacao">15</span> segundos
             </li>
-
-
         </ul>
-        <textarea class="campo-digitacao" rows="6" cols="50"></textarea>
 
-        <!-- pode Importar itens da materialize.com, sendo chamadas pelo script. está utilizando da biblioteca no pc.(libs)  -->
+        <textarea class="campo-digitacao" rows="8" cols ="40"></textarea>
 
         <div class="botoes">
-            <!-- <Button id="botao-reiniciar"> Reiniciar Jogo </Button> -->
-            <a class="btn-floating btn-large waves-effect waves-light red" id="botao-reiniciar"><i class="material-icons">restore</i>
+            <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+                <i class="material-icons">restore</i>
             </a>
-
         </div>
 
-        <!-- centralizando as (li)'s' -->
         <ul class="center">
-            <li><span id="contador-caracteres">0</span> Caracteres</li>
-            <li><span id="contador-palavras">0</span> Palavras </li>
+            <li><span id="contador-caracteres">0</span> caracteres</li>
+            <li><span id="contador-palavras">0</span> palavras</li>
         </ul>
     </div>
-  
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
-
-
 </body>
-
 </html>
